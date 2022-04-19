@@ -22,12 +22,12 @@ const UserHeader = ({ user }) => {
               @{user.basics.username}
             </a>
           </h4>
-          <p>{user.basics.label}</p>
-          <p>Coding in {user.basics.region}</p>
-          <p>{user.basics.yearsOfExperience} years of experience as a developer</p>
-          <p>{user.basics.headline}</p>
+          <p> - {user.basics.label}</p>
+          <p>- Building cool projects in {user.basics.region}</p>
+          <p>- {user.basics.yearsOfExperience} years of experience as a developer</p>
+          <p>- {user.basics.headline}</p>
           <p>
-            Blog:{' '}
+            {' '}
             <a href={user.basics.blog} target="_blank" rel="noreferrer noopener">
               {user.basics.blog}
             </a>
